@@ -1,0 +1,82 @@
+body{
+	margin: -20px;
+	background: lightgray;
+}
+
+.button{	
+    text-align:right;
+	display: inline-block;
+	float:left;
+	margin: 1em;
+	padding: 0px;
+	border: none; 
+	opacity: 1;
+	border-radius: 7px;	   
+ }
+
+ .button:hover{
+ 	opacity: 0.8;
+ }
+
+#quote {
+	font-size:1.75em;
+	padding:0.65em;
+	width: 460px;
+	margin: 10px;
+}
+
+#author{
+	text-align: right;
+	width: 480px;
+	padding: 10px 40px 10px 10px;
+}
+
+#quote-box{
+	width: 500px;
+	margin: auto;
+	background: white;
+	box-shadow: 4px 4px 5px 2px #888888;
+	border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+#outer-box{
+	height:100vh;
+	background: white;
+	margin: -50px;
+}
+
+#inner-box{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 500px;
+	margin:auto;
+}
+
+#getMessage{
+	text-align:right;
+	display: inline-block;
+	float:right;
+	margin: 1.2em;
+	padding: 8px 18px 6px 18px;
+	border: none; 
+	opacity: 1;
+	border-radius: 7px;
+	box-shadow: 4px 4px 5px 2px #888888;
+	width: auto;
+}
+
+#getMessage:hover{
+	opacity: 0.8;
+}
+
+#buttons{
+	width: 480px;
+	height: 50px;
+}
+
+#twitter {
+	margin-left: 2.5em;
+}

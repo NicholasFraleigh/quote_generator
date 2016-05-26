@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<link rel='stylesheet' type = 'text/css' href = 'css/stylesheet.css'/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type='text/javascript' src = 'scripts/script.js'></script>
+		<script src="https://use.fontawesome.com/b5068abafd.js"></script>
+
 	</head>
 
-	<body>
-		<div id = "quote"></div>
-		<div id = "author" class = "message">Text goes here</div>
-		<div id = "quote-source"></div>
-		<button id = "getMessage" class = "btn btn-primary">Get Quote</button>
+	<body id = "bod">
+		<div id = "outer-box">
+			<div id ="inner-box">
+				<div id = "quote-box">
+					<div id = "quote"></div>
+					<div id = "author" class = "message">Text goes here</div>
+				</div>
+				<div id = "buttons">
+					<button id = "getMessage" class = "btn btn-primary button">Get Quote</button>	
+					<a id = "twitter" class = "button social" id="tweet-quote" title="Tweet this quote!" target="_blank">
+      					<i class='fa fa-twitter-square fa-2x' aria-hidden=true></i>
+   				 	</a>
+   				 	<a id = "facebook" class = "button social" href="https://www.facebook.com/nicholas.fraleigh"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+   				</div>	
+			</div>
+		</div>
 	</body>
 </html>
